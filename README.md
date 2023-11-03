@@ -1,4 +1,4 @@
-# Créer un projet Nest
+# Créer une nouvelle route "direBonjour"
 
 La meilleure façon de créer un projet Nest est d'utiliser "Nest CLI" et d'exécuter la commande :
 
