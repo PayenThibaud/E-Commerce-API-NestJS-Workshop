@@ -1,7 +1,13 @@
-# Créer un projet Nest
+# Inspecter le dossier `src`
 
-La meilleure façon de créer un projet Nest est d'utiliser "Nest CLI" et d'exécuter la commande :
+<details>
+<summary><h2>Solution</h2></summary>
 
-```sh
-nest new nom-du-projet
-```
+## Fichiers concernés
+
+- `app.controller.ts` ([voir le fichier](./e-commerce/src/app.controller.ts))
+- `app.service.ts` ([voir le fichier](./e-commerce/src/app.service.ts))
+
+Ces fichiers sont respectivement ceux d'un controller et d'un service.
+
+</details>
