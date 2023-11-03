@@ -11,5 +11,7 @@ export class AppController {
   }
 
   @Get('direBonjour')
-  direBonjour() {}
+  direBonjour() {
+    return this.appService.logiqueDeDireBonjour();
+  }
 }
