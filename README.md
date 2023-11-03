@@ -1,23 +1,7 @@
-# Api Nest : Boutique en ligne
+# Créer un projet Nest
 
-# Objectifs
+La meilleure façon de créer un projet Nest est d'utiliser "Nest CLI" et d'exécuter la commande :
 
-Vous devez créer une API simple avec Nest qui permettra à des utilisateurs de votre site web d'enregitrer les articles qu'ils souhaitent vendre. Cela implique que les utilisateurs doivent pouvoir ajouter des articles, ainsi que retirer leurs articles de votre site. Ils doivent aussi pouvoir consulter les articles mis en ligne par d'autres utilisateurs.
-
-## Initialisation
-
-1. Créer un projet Nest
-2. Inspecter le dossier `src` de votre projet Nest pour trouver :
-   1. Un controlleur (Controller)
-   2. Un service
-3. Créer une route dans le controlleur que vous avez trouvé, son nom doit être "direBonjour"
-4. Créer une méthode dans le service appelé "logiqueDeDireBonjour" que vous avez trouvé qui renvoie "Bonjour"
-5. Retourner le résultat de la méthode que vous avez crée dans le code de la route que vous avez crée
-6. Tester votre route avec Postman
-   1. Trouver l'URL de votre api
-   2. Trouvez un moyen d'appeller votre route
-7. Créer un controller appellé "Product"
-8. Créer un service pour ce nouveau controller appellé "Product"
-9. Créer une route dans ce controlleur pour récupérer un tableau de nom de produit
-10. Lier ce nouveau controlleur dans Nest
-11. Tester la route pour récupérer un tableau de nom de produit
+```sh
+nest new nom-du-projet
+```
