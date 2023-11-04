@@ -1,4 +1,4 @@
-# Initialiser `Prisma`
+# Importer le schéma `Prisma`
 
 ## Fichiers concernés
 
