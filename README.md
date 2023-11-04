@@ -1,5 +1,5 @@
-# Créer une nouvelle route dans le controlleur `Product`
+# Créer un nouveau module `Product`
 
 ## Fichier concerné
 
-- `product.controller.ts` ([voir le fichier](./e-commerce/src/product.controller.ts))
+- `product.module.ts` ([voir le fichier](./e-commerce/src/product.module.ts))
