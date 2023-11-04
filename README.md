@@ -1,18 +1,27 @@
-# Migrer le schéma `Prisma` vers la base de données
+# Créer une ressource (module) nommée `Users`
 
 ## Fichiers concernés
 
-- `prisma/migrations/?/migration.sql` ([voir le fichier](./e-commerce/prisma/migrations/20231104041452_/migration.sql))
-- `prisma/migrations/migration_lock.toml` ([voir le fichier](./e-commerce/prisma/migrations/migration_lock.toml))
+- `package.json` ([voir le fichier](./e-commerce/package.json))
+- `src/users/dto/create-user.dto.ts` ([voir le fichier](./e-commerce/src/users/dto/create-user.dto.ts))
+- `src/users/dto/update-user.dto.ts` ([voir le fichier](./e-commerce/src/users/dto/update-user.dto.ts))
+- `src/users/users.controller.dto` ([voir le fichier](./e-commerce/src/users/users.controller.ts))
+- `src/users/users.service.dto` ([voir le fichier](./e-commerce/src/users/users.service.ts))
+- `src/users/users.module` ([voir le fichier](./e-commerce/src/users/users.module.ts))
+- `src/app.module` ([voir le fichier](./e-commerce/src/app.module.ts))
 
 ## Solution
 
-Pour importer une structure de schéma vers une base de données, il faut :
+Pour créer un nouveau module complet (ressource) avec Nest CLI, il suffit d'exécuter la commande :
 
-- Configurer le chemin d'accès de Postgres dans le fichier `.env`
-- Exécuter la commande :
 ```sh
-npx prisma migrate dev
+nest generate ressource users
+```
+
+ou
+
+```sh
+nest g res users
 ```
 
 À la racine du projet Nest.
