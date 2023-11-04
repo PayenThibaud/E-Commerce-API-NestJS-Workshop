@@ -1,5 +1,7 @@
-# Importer le module `Product` dans le module `App`
+# Installer `Prisma`
 
-## Fichier concerné
+## Fichiers concernés
 
-- `app.module.ts` ([voir le fichier](./e-commerce/src/app.module.ts))
+- `nodes_modules`
+- `package.json`
+- `package-lock.json`
