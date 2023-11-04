@@ -1,4 +1,4 @@
-# Ajouter les propriétés `Pseudo` et `Mail` au DTO
+# Utiliser le service `Prisma` en tant que provider du module `Users`
 
 ## Fichiers concernés
 
