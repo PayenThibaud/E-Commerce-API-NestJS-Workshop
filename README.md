@@ -1,17 +1,16 @@
-# Installer le cliet `Prisma`
+# Initialiser `Prisma`
 
 ## Fichiers concernés
 
-- `nodes_modules`
-- `package.json`
-- `package-lock.json`
+- `prisma/prisma.schema` ([voir le fichier](./e-commerce/prisma/schema.prisma))
+- `.env`
 
 ## Solution
 
-Pour installer le client `Prisma` il suffit d'exécuter cette commande :
+Pour initialiser `Prisma`, il suffit d'exécuter la commande :
 
 ```sh
-npm install @prisma/client
+npx prisma init
 ```
 
 À la racine du projet Nest.
