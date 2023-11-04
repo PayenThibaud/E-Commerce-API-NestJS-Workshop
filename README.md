@@ -2,4 +2,4 @@
 
 ## Fichiers concernés
 
-- `src/users/dto/create-user.dto.ts` ([voir le fichier](./e-commerce/src/users/dto/create-user.dto.ts))
+- `src/users/users.module.ts` ([voir le fichier](./e-commerce/src/users/users.module.ts))
