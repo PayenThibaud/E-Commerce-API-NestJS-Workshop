@@ -25,3 +25,5 @@ nest g res users
 ```
 
 À la racine du projet Nest.
+
+Et de sélectionner `REST API` puis d'entrer `Y`.
