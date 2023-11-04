@@ -1,5 +1,5 @@
-# Lier le controlleur `Product` et le service `Product` dans le module `Product`
+# Importer le module `Product` dans le module `App`
 
 ## Fichier concerné
 
-- `product.module.ts` ([voir le fichier](./e-commerce/src/products/product.module.ts))
+- `app.module.ts` ([voir le fichier](./e-commerce/src/app.module.ts))
