@@ -1,4 +1,4 @@
-# Installer `Prisma`
+# Installer le cliet `Prisma`
 
 ## Fichiers concernés
 
@@ -8,10 +8,10 @@
 
 ## Solution
 
-Pour installer `Prisma` il suffit d'exécuter cette commande :
+Pour installer le client `Prisma` il suffit d'exécuter cette commande :
 
 ```sh
-npm install --save-dev prisma
+npm install @prisma/client
 ```
 
 À la racine du projet Nest.
