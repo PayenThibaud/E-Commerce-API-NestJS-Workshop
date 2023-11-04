@@ -1,4 +1,4 @@
-# Installer le cliet `Prisma`
+# Installer le client `Prisma`
 
 ## Fichiers concernés
 
