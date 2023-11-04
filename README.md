@@ -7,7 +7,7 @@
 
 ## Solution
 
-Pour créer importer une structure de schéma dans une base de données, il faut :
+Pour importer une structure de schéma vers une base de données, il faut :
 
 - Configurer le chemin d'accès de Postgres dans le fichier `.env`
 - Exécuter la commande :
