@@ -3,6 +3,7 @@
 ## Fichiers concernés
 
 - `prisma/prisma.schema` ([voir le fichier](./e-commerce/prisma/schema.prisma))
+- `.gitignore` ([voir le fichier](./e-commerce/.gitignore))
 - `.env`
 
 ## Solution
