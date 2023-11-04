@@ -11,7 +11,7 @@
 Pour installer `Prisma` il suffit d'exécuter cette commande :
 
 ```sh
-npm install prisma
+npm install --save-dev prisma
 ```
 
 À la racine du projet Nest.
