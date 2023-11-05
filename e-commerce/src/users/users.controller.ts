@@ -11,11 +11,15 @@ import { UsersService } from './users.service';
 import { ApiTags } from '@nestjs/swagger';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { ProductService } from 'src/products/product.service';
 
 @Controller('users')
 @ApiTags('Users')
 export class UsersController {
-  constructor(private readonly usersService: UsersService) {}
+  constructor(
+    private readonly usersService: UsersService,
+    private readonly productsService: ProductService,
+  ) {}
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
@@ -30,6 +34,11 @@ export class UsersController {
   @Get(':uuid')
   public getByUUID(@Param('uuid') uuid: string) {
     return this.usersService.getByUUID(uuid);
+  }
+
+  @Get(':uuid/products')
+  public getProductsByUserUUID(@Param('uuid') uuid: string) {
+    return this.productsService.getProductsByUserUUID(uuid);
   }
 
   @Patch(':uuid')
