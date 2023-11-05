@@ -1,4 +1,4 @@
-# Préparer la validation des donées avec la `Validation Pipe`
+# Préparer la validation des données avec la `Validation Pipe`
 
 ## Fichiers concernés
 
