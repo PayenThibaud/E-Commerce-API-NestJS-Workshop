@@ -53,4 +53,9 @@ export class UsersController {
   public deleteByUUID(@Param('uuid') uuid: string) {
     return this.usersService.deleteByUUID(uuid);
   }
+
+  @Delete(':uuid/products')
+  public deleteProductsByUserUUID(@Param('uuid') uuid: string) {
+    return this.productsService.deleteProductsByUserUUID(uuid);
+  }
 }
