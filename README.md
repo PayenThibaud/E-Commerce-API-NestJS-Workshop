@@ -1,6 +1,6 @@
-# Normaliser toutes les rÃ©ponses
+# Normaliser toutes les réponses
 
-## Fichiers concernÃ©s
+## Fichiers concernés
 
 - `src/users/users.service.ts` ([voir le fichier](./e-commerce/src/users/users.service.ts))
 - `src/users/users.controller.ts` ([voir le fichier](./e-commerce/src/users/users.controller.ts))
