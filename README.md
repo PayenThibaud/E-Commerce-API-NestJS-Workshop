@@ -1,4 +1,4 @@
-# Utiliser la `Validation Pipe` comme `Global Pipe`
+# Tranformer automatiquement les données en utilisant la `Validation Pipe`
 
 ## Fichier concerné
 
