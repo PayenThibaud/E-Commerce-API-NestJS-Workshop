@@ -72,4 +72,17 @@ export class ProductService {
       await this.prisma.products.delete({ where: { UUID: uuid } }),
     ).toJSON();
   }
+
+  public async deleteProductsByUserUUID(userUUID: string) {
+    return new NormalizedResponse(
+      `Products for user '${userUUID}' uuid has been deleted`,
+      await this.prisma.products.deleteMany({
+        where: {
+          Author: {
+            UUID: userUUID,
+          },
+        },
+      }),
+    ).toJSON();
+  }
 }
