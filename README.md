@@ -1,6 +1,5 @@
-# Créer une route pour supprimer un article
+# Définir le service `Product` en tant que provider du module `Users`
 
-## Fichiers concernés
+## Fichier concerné
 
-- `src/products/product.controllers.ts` ([voir le fichier](./e-commerce/src/products/product.controller.ts)) ([voir la modification](https://github.com/benjGam/E-Commerce-API-NW/commit/6b2c5859d08e0c526f92f6c56e9fd90ad97fa779#diff-ecfbcec0a44fa5ffb1fc6646cf677797cedcf7ac0bb8265d7d14bfb1dc1e652e))
-- `src/products/product.service.ts` ([voir le fichier](./e-commerce/src/products/product.service.ts)) ([voir la modification](https://github.com/benjGam/E-Commerce-API-NW/commit/13f7300b1cc5060eb4b5017f7cbf74e7807e7c1f#diff-569c6f27785ba98ff75a995b5a2db95e831b21d54411430c600600fd2ce387d7))
+- `src/users/users.module.ts` ([voir le fichier](./e-commerce/src/users/users.module.ts)) ([voir la modification](https://github.com/benjGam/E-Commerce-API-NW/commit/914d12a29a8b424c4def262e484efcad0afa7923#diff-5d0ee5931543c5b67fa65633fbfaa04c0de02a03c1067045d37a7f60bd447bac))
