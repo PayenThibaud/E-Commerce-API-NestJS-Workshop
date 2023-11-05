@@ -1,7 +1,7 @@
-# Normaliser toutes les rÃ©ponses
+# Préparer la validation des donées avec la `Validation Pipe`
 
-## Fichiers concernÃ©s
+## Fichiers concernés
 
-- `src/users/users.service.ts` ([voir le fichier](./e-commerce/src/users/users.service.ts))
-- `src/users/users.controller.ts` ([voir le fichier](./e-commerce/src/users/users.controller.ts))
-- `src/utils/normalized-response.ts` ([voir le fichier](./e-commerce/src/utils/normalized-response.ts))
+- `package.json` ([voir le fichier](./e-commerce/package.json))
+- `package-lock.json` ([voir le fichier](./e-commerce/package-lock.json))
+- `src/users/dto/create-user.dto.ts` ([voir le fichier](./e-commerce/src/users/dto/create-user.dto.ts))
