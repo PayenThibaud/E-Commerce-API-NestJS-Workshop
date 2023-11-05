@@ -1,5 +1,5 @@
-# Configurer `Swagger`
+# Lister les routes du controlleur `Users` séparément
 
 ## Fichier concerné
 
-- `src/main.ts` ([voir le fichier](./e-commerce/src/main.ts))
+- `src/users/users.controller.ts` ([voir le fichier](./e-commerce/src/users/users.controller.ts))
