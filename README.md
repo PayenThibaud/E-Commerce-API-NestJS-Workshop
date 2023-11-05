@@ -1,6 +1,5 @@
-# Installer `Swagger`
+# Configurer `Swagger`
 
-## Fichiers concernés
+## Fichier concerné
 
-- `package.json` ([voir le fichier](./e-commerce/package.json))
-- `package-lock.json` ([voir le fichier](./e-commerce/package-lock.json))
+- `src/main.ts` ([voir le fichier](./e-commerce/src/main.ts))
