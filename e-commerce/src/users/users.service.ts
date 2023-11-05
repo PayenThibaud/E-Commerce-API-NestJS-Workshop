@@ -40,7 +40,7 @@ export class UsersService {
         Mail: !!updateUserDto.mail ? updateUserDto.mail : undefined,
       },
     });
-    return;
+    return updatedUser;
   }
 
   remove(id: number) {
