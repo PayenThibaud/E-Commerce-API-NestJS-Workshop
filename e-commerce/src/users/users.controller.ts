@@ -39,7 +39,7 @@ export class UsersController {
   }
 
   @Delete(':uuid')
-  public deleteByUUId(@Param('uuid') uuid: string) {
+  public deleteByUUID(@Param('uuid') uuid: string) {
     return this.usersService.deleteByUUID(uuid);
   }
 }
