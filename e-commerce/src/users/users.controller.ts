@@ -27,7 +27,7 @@ export class UsersController {
 
   @Get(':uukid')
   public getByUUID(@Param('uuid') uuid: string) {
-    return this.usersService.findOne(uuid);
+    return this.usersService.getByUUID(uuid);
   }
 
   @Patch(':id')
