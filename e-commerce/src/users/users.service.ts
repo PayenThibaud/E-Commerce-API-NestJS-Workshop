@@ -34,7 +34,7 @@ export class UsersService {
         },
       }),
     );
-    return gettedUser;
+    return gettedUser.toJSON();
   }
 
   public async updateByUUID(uuid: string, updateUserDto: UpdateUserDto) {
@@ -50,7 +50,7 @@ export class UsersService {
         },
       }),
     );
-    return updatedUser;
+    return updatedUser.toJSON();
   }
 
   public async deleteByUUID(uuid: string) {
@@ -62,6 +62,6 @@ export class UsersService {
         },
       }),
     );
-    return deletedUser;
+    return deletedUser.toJSON();
   }
 }
