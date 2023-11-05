@@ -2,4 +2,4 @@
 
 ## Fichier concerné
 
-- `product.service.ts` ([voir le fichier](./e-commerce/src/product.service.ts))
+- `src/product.service.ts` ([voir le fichier](./e-commerce/src/product.service.ts))
