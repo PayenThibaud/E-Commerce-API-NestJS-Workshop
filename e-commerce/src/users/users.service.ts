@@ -26,11 +26,14 @@ export class UsersService {
   }
 
   public async getByUUID(uuid: string) {
-    const gettedUser = await this.prisma.users.findUnique({
-      where: {
-        UUID: uuid,
-      },
-    });
+    const gettedUser = new NormalizedResponse(
+      `User ${uuid} has been found`,
+      await this.prisma.users.findUnique({
+        where: {
+          UUID: uuid,
+        },
+      }),
+    );
     return gettedUser;
   }
 
