@@ -25,7 +25,7 @@ export class UsersController {
     return this.usersService.findAll();
   }
 
-  @Get(':uukid')
+  @Get(':uusid')
   public getByUUID(@Param('uuid') uuid: string) {
     return this.usersService.getByUUID(uuid);
   }
