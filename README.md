@@ -1,5 +1,5 @@
-# Définir le service `Product` en tant que provider du module `Users`
+# Créer une méthode dans le service `Products` pour récupérer tous les articles d'un utilisateur en fonction de l'UUID de l'utilisateur.
 
 ## Fichier concerné
 
-- `src/users/users.module.ts` ([voir le fichier](./e-commerce/src/users/users.module.ts)) ([voir la modification](https://github.com/benjGam/E-Commerce-API-NW/commit/914d12a29a8b424c4def262e484efcad0afa7923#diff-5d0ee5931543c5b67fa65633fbfaa04c0de02a03c1067045d37a7f60bd447bac))
+- `src/products/product.service.ts` ([voir le fichier](./e-commerce/src/products/product.service.ts)) ([voir la modification](https://github.com/benjGam/E-Commerce-API-NW/commit/35913c107f5d25edb5cee5c283a3bf31b5d00800#diff-569c6f27785ba98ff75a995b5a2db95e831b21d54411430c600600fd2ce387d7))
