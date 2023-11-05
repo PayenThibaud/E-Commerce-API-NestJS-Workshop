@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { CreateProductDto } from './dto/create-product.dto';
 
@@ -11,8 +11,8 @@ export class ProductController {
     return this.productService.create(createProductDto);
   }
 
-  @Get()
-  getProducts(): string[] {
-    return this.productService.getProducts();
+  @Get(':uuid')
+  public getByUUID(@Param('uuid') uuid: string) {
+    return this.productService.getByUUID(uuid);
   }
 }
