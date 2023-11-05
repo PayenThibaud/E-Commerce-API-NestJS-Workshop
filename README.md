@@ -1,5 +1,6 @@
-# Tranformer automatiquement les données en utilisant la `Validation Pipe`
+# Installer `Swagger`
 
-## Fichier concerné
+## Fichiers concernés
 
-- `main.ts` ([voir le fichier](./e-commerce/src/main.ts))
+- `package.json` ([voir le fichier](./e-commerce/package.json))
+- `package-lock.json` ([voir le fichier](./e-commerce/package-lock.json))
