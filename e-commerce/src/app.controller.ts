@@ -9,9 +9,4 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-
-  @Get('direBonjour')
-  direBonjour() {
-    return this.appService.logiqueDeDireBonjour();
-  }
 }
