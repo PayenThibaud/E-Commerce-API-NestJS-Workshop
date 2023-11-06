@@ -45,6 +45,17 @@ export class UsersService {
     return gettedUser.toJSON();
   }
 
+  public async getByUsername(username: string) {
+    return new NormalizedResponse(
+      `User for '${username}' username has been found`,
+      await this.prisma.users.findUnique({
+        where: {
+          username,
+        },
+      }),
+    ).toJSON();
+  }
+
   public async updateByUUID(uuid: string, updateUserDto: UpdateUserDto) {
     const updatedUser = new NormalizedResponse(
       `User ${updateUserDto.pseudo} has been updated`,
