@@ -2,4 +2,4 @@
 
 ## Fichier concerné
 
-- `prisma/migrations/?_auth/migrations.sql` ([voir le fichier](./e-commerce/prisma/migrations/20231106032235_auth/migration.sql))
+- `prisma/migrations/?_auth/migrations.sql` ([voir le fichier](./e-commerce/prisma/migrations/20231106070637_auth/migration.sql))
