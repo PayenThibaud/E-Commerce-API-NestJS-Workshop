@@ -12,6 +12,7 @@ import { ApiTags } from '@nestjs/swagger';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { ProductService } from 'src/products/product.service';
+import { AuthNotRequired } from 'src/auth/auth.controller';
 
 @Controller('users')
 @ApiTags('Users')
@@ -21,6 +22,7 @@ export class UsersController {
     private readonly productsService: ProductService,
   ) {}
 
+  @AuthNotRequired()
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
     return this.usersService.create(createUserDto);
