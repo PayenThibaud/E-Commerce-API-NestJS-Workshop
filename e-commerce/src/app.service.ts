@@ -6,6 +6,6 @@ export class AppService {
     return 'Hello World!';
   }
   logicToSayGoodbye(): string {
-    return 'Bonjour';
+    return 'Goodbye';
   }
 }
