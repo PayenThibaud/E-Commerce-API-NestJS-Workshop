@@ -20,4 +20,20 @@ export class CreateUserDto {
   @IsEmail()
   @Length(2, 75)
   mail: string;
+
+  @ApiProperty({
+    description: 'This field represents account username',
+    minLength: 7,
+    maxLength: 75,
+  })
+  @IsString()
+  public username: string;
+
+  @ApiProperty({
+    description: 'This field represents account password',
+    minLength: 8,
+    maxLength: 130,
+  })
+  @IsString()
+  public password: string;
 }
