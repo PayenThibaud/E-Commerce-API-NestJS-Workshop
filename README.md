@@ -1,4 +1,4 @@
-# Adapter la route et ses besoins connexes de création des utilisateurs
+# Adapter la route de création des utilisateurs et ses besoins connexes
 
 ## Fichiers concernés
 
