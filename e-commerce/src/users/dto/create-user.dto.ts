@@ -9,7 +9,7 @@ export class CreateUserDto {
   })
   @IsString()
   @Length(5, 50)
-  pseudo: string;
+  public pseudo: string;
 
   @ApiProperty({
     description: 'This field represents the new user mail address',
@@ -19,7 +19,7 @@ export class CreateUserDto {
   })
   @IsEmail()
   @Length(2, 75)
-  mail: string;
+  public mail: string;
 
   @ApiProperty({
     description: 'This field represents account username',
