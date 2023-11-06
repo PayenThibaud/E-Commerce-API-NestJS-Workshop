@@ -1,4 +1,4 @@
-# Créer une route nommée `direBonjour`
+# Créer une route nommée `sayGoodbye`
 
 ## Fichier concerné
 
