@@ -3,6 +3,8 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { PrismaService } from 'src/prisma.service';
 import NormalizedResponse from 'src/utils/normalized-response';
+import * as bcrypt from 'bcrypt';
+import { env } from 'yargs';
 
 @Injectable()
 export class UsersService {
@@ -15,6 +17,12 @@ export class UsersService {
         data: {
           Pseudo: createUserDto.pseudo,
           Mail: createUserDto.mail,
+          username: createUserDto.username,
+          password: await this.hashPass(createUserDto.password),
+        },
+        select: {
+          Pseudo: true,
+          Mail: true,
         },
       }),
     );
@@ -63,5 +71,11 @@ export class UsersService {
       }),
     );
     return deletedUser.toJSON();
+  }
+
+  // Private methods
+
+  private async hashPass(passwordToHash: string): Promise<string> {
+    return bcrypt.hash(passwordToHash, +env('BCRYPT_ROUND_COUNT'));
   }
 }
