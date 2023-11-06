@@ -5,7 +5,7 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
-  logiqueDeDireBonjour(): string {
+  logicToSayGoodbye(): string {
     return 'Bonjour';
   }
 }
