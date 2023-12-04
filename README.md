@@ -101,7 +101,7 @@ model Users {
 <details open>
 <summary><h2>CRUD pour les produits</h2></summary>
 
-- [ ] 38. Créer une route et ses besoins annexes pour enregistrer de nouveaux article.
+- [ ] 38. Créer une route et ses besoins annexes pour enregistrer de nouveaux articles.
 - [ ] 39. Créer une route pour récupérer un article par son UUID.
 - [ ] 40. Créer une route et ses besoins annexes pour modifier les informations d'un article par son UUID.
 - [ ] 41. Créer une route pour supprimer un article par son UUID.
@@ -140,7 +140,7 @@ model Users {
     - Créer une méthode dans le service `Users` pour récupérer un utilisateur par le nom d'utilisateur.
     - Utiliser le `Jwt Service` et le `Users Service` dans le module `Auth`.
     - Créer la logique pour authentifier un utilisateur.
-       - Renvoyez uniquement un objet contenant un champ : `access_token` contenant le JWT signé avec les informations suivantes :
+       - Renvoyer uniquement un objet contenant un champ : `access_token` contenant le JWT signé avec les informations suivantes :
           - Le nom d'utilisateur de l'utilisateur.
           - L'UUID de l'utilisateur.
 - [ ] 53. Implémenter la stratégie `Jwt` pour le module Auth.
